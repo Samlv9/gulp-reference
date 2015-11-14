@@ -22,6 +22,12 @@
         "url": "https://github.com/Samlv9/gulp-reference/issues"
     },
     "license": "MIT",
+    "dependencies": {
+        "through2": "^2.0.0",
+        "vinyl": "^1.1.0",
+        "isutf8": "^1.0.11",
+        "concat-with-sourcemaps": "^1.0.4"
+    },
     "devDependencies": {
         "through2": "^2.0.0",
         "vinyl": "^1.1.0",
