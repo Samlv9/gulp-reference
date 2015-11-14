@@ -1,0 +1,31 @@
+{
+    "name": "gulp-reference",
+    "version": "1.0.0",
+    "description": "parse visual studio reference tag with nodejs",
+    "author": "Samlv9 <Samlv9@live.com> (http://profile.samlv9.com/samlv9)",
+    "homepage": "https://github.com/Samlv9/gulp-reference.git",
+    "keywords": [
+        "gulp",
+        "plugin",
+        "require",
+        "include",
+        "define",
+        "reference",
+        "visual studio",
+        "intellisense"
+    ],
+    "repository": {
+        "type": "git",
+        "url" : "https://github.com/Samlv9/gulp-reference.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Samlv9/gulp-reference/issues"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "through2": "^2.0.0",
+        "vinyl": "^1.1.0",
+        "isutf8": "^1.0.11",
+        "concat-with-sourcemaps": "^1.0.4"
+    }
+}
