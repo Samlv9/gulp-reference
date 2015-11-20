@@ -1,6 +1,6 @@
 # gulp-reference
 基于 Visual Studio 的 <reference> 标记合并依赖项。<br>
-concat your javascript modules together by use visual studio `reference` tag.
+concat your javascript modules together by use visual studio [`reference`](https://msdn.microsoft.com/en-us/library/bb385682(v=vs.110).aspx) tag.
 
 
 ####`main.js`:
@@ -28,7 +28,5 @@ gulp.task("build", function () {
 var defineModule = true;
 var defineMain = true;
 ```
-
-
 
 
