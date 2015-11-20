@@ -1,6 +1,7 @@
 # gulp-reference
-基于 Visual Studio 的 <reference> 标记合并依赖项。
-parse visual studio reference tag with nodejs.
+基于 Visual Studio 的 <reference> 标记合并依赖项。<br>
+concat your javascript modules together by use visual studio `reference` tag.
+
 
 ####`main.js`:
 ```javascript
@@ -22,7 +23,7 @@ gulp.task("build", function () {
         .pipe(gulp.dest("output.js"));
 }
 ```
-####`output.js`
+####`module.js`+`main.js`=`output.js`
 ```javascript
 var defineModule = true;
 var defineMain = true;
